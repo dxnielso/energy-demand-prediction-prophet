@@ -27,12 +27,18 @@ Antes de ejecutar la aplicación, asegúrate de tener instaladas las siguientes 
 ## Instalación
 Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina local:
 
+Clona el repositorio del proyecto:
+   ```bash
+   git clone <URL-del-repositorio>
+   cd <directorio-del-backend>
+   ```
+
 ### Backend (Google Colab)
 1. Dentro de la carpeta del proyecto encontraras un archivo llamado **prediccion_demanda_energia_prophet.ipynb**, deberas abrir un [nuevo notebook](https://colab.research.google.com/) y agregar el código o importar el archivo dentro de Google Colab.
    
 2. Subir a Google Colab el dataset llamado *AEP_hourly.csv* el cual se encuentra en la carpeta raiz del proyecto.
    
-3. Ejecuta la sección llamada **API en FastAPI** y espera miesntras se entena el modelo y se crea la API.
+3. Ejecuta la sección llamada **API en FastAPI** y espera mientras se entena el modelo y se crea la API.
    
 4. Una vez terminado el entrenamiento, se arrojara un link en la consola de Google Colab, el cual ayudara a acceder a la API para hacer peticiones. Guarda ese link por que se usara mas adelante.
    
